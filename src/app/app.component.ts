@@ -64,11 +64,4 @@ export class AppComponent implements OnInit {
       this.currentElement = element.id;
     }
   }
-
-  enable
-
-  onOk(button: HTMLButtonElement) {
-
-  }
-
 }
