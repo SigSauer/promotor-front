@@ -2,13 +2,21 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import {HttpClientModule} from '@angular/common/http';
+import {FormsModule} from '@angular/forms';
+import {MatTableModule} from '@angular/material/table';
+import {ResizeTableDirective} from './resize-table.directive';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ResizeTableDirective
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule,
+    FormsModule,
+    MatTableModule
   ],
   providers: [],
   bootstrap: [AppComponent]

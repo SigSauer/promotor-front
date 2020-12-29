@@ -120,5 +120,8 @@
       }
     }
   },
-  "defaultProject": "promotor"
+  "defaultProject": "promotor",
+  "cli": {
+    "analytics": "f3a852c9-ae67-43fc-8aff-c68c7056308e"
+  }
 }
